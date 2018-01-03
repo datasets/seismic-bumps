@@ -1,0 +1,148 @@
+{
+    "title": "Seismic bumps",
+    "name": "seismic-bumps",
+    "sources": [
+        {
+            "title": "UCI - Machine Learning Repository",
+            "path": "https://archive.ics.uci.edu/ml/datasets/seismic-bumps"
+        }
+    ],
+    "licences": [
+        {
+            "name": "odc-pddl",
+            "title": "Open Data Commons Public Domain Dedication and Licence (PDDL)",
+            "path": "http://opendatacommons.org/licenses/pddl/"
+        }
+    ],
+    "resources": [
+        {
+            "path": "data/seismic-bumps.csv",
+            "profile": "tabular-data-resource",
+            "encoding": "utf-8",
+            "name": "seismic-bumps",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "seismic",
+                        "type": "string",
+                        "format": "default",
+                        "description": "result of shift seismic hazard assessment in the mine working obtained by the seismic method (a - lack of hazard, b - low hazard, c - high hazard, d - danger state)"
+                    },
+                    {
+                        "name": "seismoacoustic",
+                        "type": "string",
+                        "format": "default",
+                        "description": "result of shift seismic hazard assessment in the mine working obtained by the seismoacoustic method"
+                    },
+                    {
+                        "name": "shift",
+                        "type": "string",
+                        "format": "default",
+                        "description": "information about type of a shift (W - coal-getting, N -preparation shift)"
+                    },
+                    {
+                        "name": "genergy",
+                        "type": "integer",
+                        "format": "default",
+                        "description": "seismic energy recorded within previous shift by the most active geophone (GMax) out of geophones monitoring the longwall"
+                    },
+                    {
+                        "name": "gpuls",
+                        "type": "integer",
+                        "format": "default",
+                        "description": "a number of pulses recorded within previous shift by GMax"
+                    },
+                    {
+                        "name": "gdenergy",
+                        "type": "integer",
+                        "format": "default",
+                        "description": "a deviation of energy recorded within previous shift by GMax from average energy recorded during eight previous shifts"
+                    },
+                    {
+                        "name": "gdpuls",
+                        "type": "integer",
+                        "format": "default",
+                        "description": "a deviation of a number of pulses recorded within previous shift by GMax from average number of pulses recorded during eight previous shifts"
+                    },
+                    {
+                        "name": "ghazard",
+                        "type": "string",
+                        "format": "default",
+                        "description": "result of shift seismic hazard assessment in the mine working obtained by the seismoacoustic method based on registration coming form GMax only"
+                    },
+                    {
+                        "name": "nbumps",
+                        "type": "integer",
+                        "format": "default",
+                        "description": "the number of seismic bumps recorded within previous shift"
+                    },
+                    {
+                        "name": "nbumps2",
+                        "type": "integer",
+                        "format": "default",
+                        "description": "the number of seismic bumps (in energy range [10^2,10^3)) registered within previous shift"
+                    },
+                    {
+                        "name": "nbumps3",
+                        "type": "integer",
+                        "format": "default",
+                        "description": "the number of seismic bumps (in energy range [10^3,10^4)) registered within previous shift"
+                    },
+                    {
+                        "name": "nbumps4",
+                        "type": "integer",
+                        "format": "default",
+                        "description": "the number of seismic bumps (in energy range [10^4,10^5)) registered within previous shift"
+                    },
+                    {
+                        "name": "nbumps5",
+                        "type": "integer",
+                        "format": "default",
+                        "description": "the number of seismic bumps (in energy range [10^5,10^6)) registered within the last shift"
+                    },
+                    {
+                        "name": "nbumps6",
+                        "type": "integer",
+                        "format": "default",
+                        "description": "the number of seismic bumps (in energy range [10^6,10^7)) registered within previous shift"
+                    },
+                    {
+                        "name": "nbumps7",
+                        "type": "integer",
+                        "format": "default",
+                        "description": "the number of seismic bumps (in energy range [10^6,10^7)) registered within previous shift"
+                    },
+                    {
+                        "name": "nbumps89",
+                        "type": "integer",
+                        "format": "default",
+                        "description": "the number of seismic bumps (in energy range [10^6,10^7)) registered within previous shift"
+                    },
+                    {
+                        "name": "energy",
+                        "type": "integer",
+                        "format": "default",
+                        "description": "the number of seismic bumps (in energy range [10^6,10^7)) registered within previous shift"
+                    },
+                    {
+                        "name": "maxenergy",
+                        "type": "integer",
+                        "format": "default",
+                        "description": "the maximum energy of the seismic bumps registered within previous shift"
+                    },
+                    {
+                        "name": "class",
+                        "type": "integer",
+                        "format": "default",
+                        "description": "the decision attribute - \"1\" means that high energy seismic bump occurred in the next shift (\"hazardous state\"), \"0\" means that no high energy seismic bumps occurred in the next shift (\"non-hazardous state\") "
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        }
+    ]
+}
