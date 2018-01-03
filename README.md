@@ -102,8 +102,7 @@ either no rights or public domain license in source data).
 ### Citation
 Sikora M., Wrobel L.: Application of rule induction algorithms for analysis of data collected by seismic 
 hazard monitoring systems in coal mines. Archives of Mining Sciences, 55(1), 2010, 91-114.
-%
---------------------------------------------------------------------------------------------------------
+
 ### Donors and creators
 Marek Sikora^{1,2} (marek.sikora@polsl.pl), Lukasz Wrobel^{1} (lukasz.wrobel@polsl.pl)
 (1) Institute of Computer Science, Silesian University of Technology, 44-100 Gliwice, Poland
