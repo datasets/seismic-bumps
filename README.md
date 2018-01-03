@@ -91,7 +91,7 @@ Attributes are same as are were in input data
 ## Preparation
 Run python script:
 
-`scripts/main.py'`
+`scripts/main.py`
 
 ## Licence
 Licensed under the [Public Domain Dedication and License][pddl] (assuming
