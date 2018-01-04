@@ -70,20 +70,23 @@ seismoacoustic method based on registration coming form GMax only;
 ("hazardous state"), "0" means that no high energy seismic bumps occurred in the next shift 
 ("non-hazardous state")
 
-### Output data
-
-Output data is located directory `data`
+Data is located directory `data`
 
 `data/seismic-bumps.csv`
 
 Attributes are same as are were in input data
 
 ## Preparation
+
+To get our output data several things are done to input data:
+* header with description about the data is removed
+* repetition of rows is removed
+
 Run python script:
 
 `scripts/main.py`
 
-## Licence
+## License
 Licensed under the [Public Domain Dedication and License][pddl] (assuming
 either no rights or public domain license in source data).
 
