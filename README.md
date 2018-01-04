@@ -1,8 +1,10 @@
-This is dataset about seismic bumps occurrences
+This is dataset about seismic bumps occurrences. This dataset contains csv
+file in which is only header and data rows with no additional information 
+about the dataset.
 
 ## Data
 
-Data is gathered from [seismic-bumps Data Set](https://archive.ics.uci.edu/ml/datasets/seismic-bumps)
+Dataset is gathered from [seismic-bumps Data Set](https://archive.ics.uci.edu/ml/datasets/seismic-bumps)
 
 The data describe the problem of high energy (higher than 10^4 J) seismic bumps forecasting in a coal 
 mine. Data come from two of longwalls located in a Polish coal mine.
